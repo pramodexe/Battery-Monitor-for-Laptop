@@ -1,14 +1,14 @@
 ### NAME
-Battery Checker for Laptop
+Battery Monitor for Laptop
 
 ### ABOUT
 This is a battery monitoring program for laptops. You can run it through your CMD or terminal.
 
 ### DESCRIPTION
-This Battery Checker script runs continuously from the terminal, logging essential battery data every minute until you stop it. The log file records the date, time, elapsed time (since the script started), battery percentage, and charging status. You can use this to get a rough idea of how long you can use your laptop. Open a terminal, run this script, and continue your work. The script will log battery status to a text file every minute. So you don't have to worry about powering off your laptop; you can see the output file anytime afterward.
+This Battery monitor script runs continuously from the terminal, logging essential battery data every minute until you stop it. The log file records the date, time, elapsed time (since the script started), battery percentage, and charging status. You can use this to get a rough idea of how long you can use your laptop. Open a terminal, run this script, and continue your work. The script will log battery status to a text file every minute. So you don't have to worry about powering off your laptop; you can see the output file anytime afterward.
 
 ### HOW TO USE
-Follow these steps to use the Battery Checker.
+Follow these steps to use the Battery monitor.
 
 1. **Install Python (if not already installed)**
     - Install Python on your computer from its [official website](https://www.python.org/downloads/).
@@ -40,23 +40,23 @@ Follow these steps to use the Battery Checker.
     - Now you have to clone this repository from GitHub.
     - Run the following command to clone it:
       ```bash
-      git clone https://github.com/pramodexe/Battery-Checker-for-Laptop
+      git clone https://github.com/pramodexe/Battery-Monitor-for-Laptop
       ```
     - Move into the cloned directory.
       ```bash
-      cd Battery-Checker-for-Laptop
+      cd Battery-Monitor-for-Laptop
       ```
-    - You should see the `battery-checker.py` file in there.
+    - You should see the `battery-monitor.py` file in there.
 
 4. **Run the Script**
     - Type the following command and press Enter:
       ```python
-      python battery_checker.py
+      python battery_monitor.py
       ```
-    - Your terminal will display a message: `Battery checker running...`
+    - Your terminal will display a message: `Battery monitor running...`
     - To stop the script (only if you want), you can press `Ctrl + C` in the terminal.
     - You can see a text file named like this: `battery_log_20241103_192237.txt`, which contains the output.
     - `20241103` is the date (2024.11.03 or November 3, 2024), and `192237` is the time (19:22:37 or 7:22:37 PM).
 
 ### AUTHOR
-Pramod Lakshan https://github.com/pramodexe/Battery-Checker-for-Laptop/
+Pramod Lakshan https://github.com/pramodexe/Battery-Monitor-for-Laptop/

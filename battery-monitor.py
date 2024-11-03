@@ -12,7 +12,7 @@ with open(log_file, "a") as file:
     file.write("Date | Time | Elapsed Time | Battery Percentage | Charging Status\n\n")
     
     # Print the initial message to the terminal
-    print("Battery checker running... (Press Ctrl + C to stop)")
+    print("Battery monitor running... (Press Ctrl + C to stop)")
 
     # Get the start time
     start_time = time.time()
@@ -56,4 +56,4 @@ with open(log_file, "a") as file:
             time.sleep(60)
 
     except KeyboardInterrupt:
-        print("\nUser stopped the battery checker.")
+        print("\nUser stopped the battery monitor.")
