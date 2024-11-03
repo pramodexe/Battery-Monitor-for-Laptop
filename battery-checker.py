@@ -2,8 +2,9 @@ import time
 from datetime import datetime
 import psutil
 
-# Name of the log file
-log_file = "battery_log.txt"
+# Get the current time to create a unique log file name
+current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+log_file = f"battery_log_{current_time}.txt"
 
 # Open the file in append mode (creates the file if it doesn't exist)
 with open(log_file, "a") as file:
